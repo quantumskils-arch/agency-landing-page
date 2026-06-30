@@ -20,8 +20,8 @@ export function Hero() {
             We Build High-Converting Websites &amp; WhatsApp Bots for Growing Businesses.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
-            Professional, industry-grade digital solutions tailored for SMEs, schools,
-            hospitals, and churches. Based proudly in Kasangati, Uganda.
+            Professional, industry-grade digital solutions tailored for SMEs, schools, hospitals, and churches.
+            Based proudly in Kasangati, Uganda.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">

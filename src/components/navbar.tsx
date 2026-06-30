@@ -22,13 +22,11 @@ export function Navbar() {
           </span>
           <span className="leading-tight">
             <span className="block text-white">{BRAND_NAME}</span>
-            <span className="block text-xs font-medium text-slate-400">
-              Premium web design & automation
-            </span>
+            <span className="block text-xs font-medium text-slate-400">Premium web design & automation</span>
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-6 xl:gap-8 lg:flex" aria-label="Primary">
           {navItems.map((item) => (
             <a
               key={item.href}
@@ -40,7 +38,7 @@ export function Navbar() {
           ))}
         </nav>
 
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <a
             href={WHATSAPP_URL}
             target="_blank"
@@ -53,7 +51,7 @@ export function Navbar() {
 
         <button
           type="button"
-          className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/5 p-2.5 text-white transition hover:bg-white/10 md:hidden"
+          className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/5 p-2.5 text-white transition hover:bg-white/10 lg:hidden"
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           aria-controls="mobile-menu"
@@ -65,7 +63,7 @@ export function Navbar() {
 
       <div
         id="mobile-menu"
-        className={`${open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"} overflow-hidden border-t border-white/10 transition-all duration-300 md:hidden`}
+        className={`${open ? "max-h-[32rem] opacity-100" : "max-h-0 opacity-0"} overflow-hidden border-t border-white/10 transition-all duration-300 lg:hidden`}
       >
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-4 sm:px-6">
           {navItems.map((item) => (
