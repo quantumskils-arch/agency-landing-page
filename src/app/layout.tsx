@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
 import { BRAND_NAME, LOCATION } from "@/lib/contact";
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: `${BRAND_NAME} | Websites & WhatsApp Bots`,
-  description: `${BRAND_NAME} is a premium digital agency in ${LOCATION} building high-converting websites and WhatsApp automation for growing businesses.`,
+  title: `${BRAND_NAME} | Websites, Apps & WhatsApp Automation`,
+  description: `${BRAND_NAME} is a premium digital agency in ${LOCATION} building websites, mobile apps, SEO systems, and WhatsApp automation for growing businesses.`,
 };
 
 export default function RootLayout({

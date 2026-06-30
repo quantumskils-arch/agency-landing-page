@@ -5,7 +5,9 @@ export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 export const navigationLinks = [
   { label: "Services", href: "#services" },
-  { label: "About", href: "#about" },
-  { label: "Blog", href: "#blog" },
+  { label: "Process", href: "#process" },
+  { label: "Work", href: "#work" },
+  { label: "Pricing", href: "#pricing" },
+  { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ] as const;
