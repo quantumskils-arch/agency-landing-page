@@ -1,3 +1,4 @@
+import { BRAND_NAME } from "@/lib/contact";
 import { CheckCircle2, Globe2, Layers3 } from "lucide-react";
 import Image from "next/image";
 
@@ -50,7 +51,7 @@ export function About() {
             tailored for the real user journey, the right local context, and the business goals that matter.
           </p>
           <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-400">
-            Lumen Digital is built from Kasangati, Uganda, and that local foundation matters. We know how to make
+            {BRAND_NAME} is built from Kasangati, Uganda, and that local foundation matters. We know how to make
             premium digital experiences that feel international in quality while remaining grounded, useful, and easy
             for local audiences to trust and act on.
           </p>

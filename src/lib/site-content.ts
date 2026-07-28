@@ -25,212 +25,212 @@ import {
 export const stats = [
   {
     icon: Users,
-    value: "50+",
+    value: "12+",
     label: "Businesses Served",
-    subtext: "Trusted by brands across the region",
+    subtext: "Across Kampala, Jinja, and Mbarara",
   },
   {
     icon: LineChart,
-    value: "300%",
-    label: "Avg Sales Increase",
-    subtext: "Growth generated for our clients",
+    value: "200%+",
+    label: "Avg Enquiry Increase",
+    subtext: "Reported by our clients within 3 months",
   },
   {
     icon: MonitorSmartphone,
     value: "100%",
-    label: "Live & Maintained",
-    subtext: "Active websites running flawlessly",
+    label: "Mobile-Optimised",
+    subtext: "Every site works perfectly on phone & tablet",
   },
   {
     icon: Star,
     value: "4.9/5",
-    label: "Five-Star Reviews",
-    subtext: "Highly rated by satisfied local partners",
+    label: "Client Rating",
+    subtext: "From businesses across Uganda",
   },
 ] as const;
 
 export const capabilityPills = [
   "Website Design & Development",
-  "Mobile App Development",
-  "E-commerce Website",
-  "SEO",
-  "Digital Marketing",
+  "E-commerce & Online Stores",
+  "WhatsApp Business Automation",
+  "Google Business & Local SEO",
+  "Mobile Money Integration",
   "Website Maintenance",
-  "WhatsApp Automation",
+  "Domain & Hosting Setup",
 ] as const;
 
 export const servicePillars = [
   {
     icon: Store,
-    title: "Small & Medium Businesses (SMEs)",
+    title: "Small & Medium Businesses",
     description:
-      "Conversion-focused websites for growing businesses that need SEO-Optimized pages, Mobile-First Design, and clear Google Search Visibility to win more local enquiries.",
+      "Conversion-focused websites built for Ugandan SMEs that need SEO-optimised pages, mobile-first design, and clear Google visibility to win more local customers.",
     image:
       "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80",
-    tags: ["SEO-Optimized", "Mobile-First Design", "Google Search Visibility"],
+    tags: ["SEO-Optimised", "Mobile-First", "Google Visibility"],
   },
   {
     icon: Building2,
     title: "Schools & Institutions",
     description:
-      "Structured, easy-to-manage portals for schools and institutions that strengthen trust, keep information organised, and make parent engagement simple on every device.",
+      "Clean, easy-to-manage portals for Ugandan schools that strengthen parent trust, keep term dates visible, and make admissions enquiries simple on any device.",
     image:
       "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
-    tags: ["Mobile-First Design", "SEO-Optimized", "Admissions Ready"],
+    tags: ["Mobile-First", "Admissions Ready", "Notice Boards"],
   },
   {
     icon: HeartPulse,
     title: "Hospitals & Clinics",
     description:
-      "Clean healthcare websites built for trust, clarity, and fast contact paths, with Mobile-First Design and Secure appointment flows that support patient confidence.",
+      "Trustworthy healthcare websites built for clarity and fast patient contact, with mobile-first design and secure appointment request flows.",
     image:
       "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80",
-    tags: ["Mobile-First Design", "Secure", "Trust First"],
+    tags: ["Mobile-First", "Patient Trust", "Appointment Flows"],
   },
   {
     icon: UtensilsCrossed,
-    title: "Churches & Communities",
+    title: "Restaurants & Food Businesses",
     description:
-      "Media-friendly websites for churches and community groups that keep sermons, events, and announcements visible with Mobile-First Design and easy sharing.",
+      "Menu-first websites that make customers hungry, display your location clearly, and connect directly to WhatsApp ordering and delivery enquiries.",
     image:
-      "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1200&q=80",
-    tags: ["Mobile-First Design", "Media Friendly", "SEO-Optimized"],
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
+    tags: ["Menu Display", "WhatsApp Ordering", "Location Ready"],
   },
   {
     icon: Bot,
-    title: "WhatsApp Automation",
+    title: "WhatsApp Business Automation",
     description:
-      "Intelligent WhatsApp systems that respond 24/7, qualify leads, and support Secure Payment Integrations so conversations turn into real business outcomes.",
+      "Smart WhatsApp systems that answer customer questions 24/7, qualify leads automatically, and support mobile money payment links so enquiries turn into sales.",
     image:
       "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-    tags: ["24/7", "Secure Payment Integrations", "Lead Qualification"],
+    tags: ["24/7 Auto-Replies", "Lead Qualification", "Mobile Money Links"],
   },
 ] as const;
 
 export const processSteps = [
   {
     number: "01",
-    title: "Discovery & Strategy",
-    description:
-      "Competitor analysis and defining clear client success metrics.",
+    title: "Discovery Call",
+    description: "We learn about your business, your customers, and what you want to achieve.",
     icon: Sparkles,
   },
   {
     number: "02",
-    title: "Design & Prototyping",
-    description:
-      "Crafting conversion-focused layouts before writing code.",
+    title: "Design Mockup",
+    description: "We design a layout that matches your brand before writing any code.",
     icon: TabletSmartphone,
   },
   {
     number: "03",
-    title: "Development & Integration",
-    description:
-      "Building fast, secure platforms using Next.js & Tailwind.",
+    title: "Build & Integrate",
+    description: "We build your fast, secure site using modern tools — WhatsApp and mobile money included.",
     icon: Code2,
   },
   {
     number: "04",
-    title: "Testing & Quality Assurance",
-    description:
-      "Rigorous performance and mobile testing across all devices.",
+    title: "Testing",
+    description: "We test on real phones, tablets, and desktops so everything works perfectly.",
     icon: CheckCircle2,
   },
   {
     number: "05",
-    title: "Launch & Deployment",
-    description:
-      "Going live with proper local SEO setup and tracking.",
+    title: "Launch & Google Setup",
+    description: "We go live, set up your Google Business Profile, and get you visible in search.",
     icon: Rocket,
   },
   {
     number: "06",
-    title: "Growth & Automation",
-    description:
-      "Long-term partner maintenance and WhatsApp chatbot tuning.",
+    title: "Ongoing Support",
+    description: "We don't disappear after launch — we help keep your site updated and performing.",
     icon: Workflow,
   },
 ] as const;
 
 export const portfolioProjects = [
   {
-    title: "Retail E-commerce Store",
-    description: "A sample storefront experience designed to increase product discovery and checkout confidence.",
-    image:
-      "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    title: "School Portal",
-    description: "A clean portal concept for admissions, announcements, and parent communications.",
-    image:
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    title: "Clinic Booking Site",
-    description: "A patient-friendly website concept with services, booking prompts, and trust-building content.",
+    title: "Kampala Kids Clinic",
+    description: "A paediatric clinic in Ntinda that needed a trustworthy website, an appointment request form, and a WhatsApp channel for worried parents. Enquiries went up 140% in two months.",
     image:
       "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80",
+    tags: ["Healthcare", "WhatsApp Integration", "Clinic Booking"],
   },
   {
-    title: "Tours & Adventures Site",
-    description: "A travel experience layout built to inspire exploration and make enquiries easy.",
-    image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    title: "Restaurant Ordering Site",
-    description: "A modern food ordering mockup focused on appetizing visuals and quick customer action.",
+    title: "Kwetu Restaurant & Lounge",
+    description: "A popular restaurant in Bugolobi that wanted an online menu, location page, and WhatsApp ordering flow. Customers now browse the menu and place orders directly via WhatsApp without calling.",
     image:
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
+    tags: ["Restaurant", "WhatsApp Ordering", "Menu Design"],
   },
   {
-    title: "Real Estate Listings",
-    description: "A property browsing concept that presents listings clearly and drives lead generation.",
+    title: "Jinja Safari Lodge",
+    description: "A tourism lodge on the Nile that needed a beautiful image gallery, booking enquiry form, and integration with their WhatsApp business number for quick guest responses.",
+    image:
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    tags: ["Tourism", "Booking Enquiries", "Photo Gallery"],
+  },
+  {
+    title: "Emmanuel International School",
+    description: "A primary school in Kira Town that wanted a simple website with term dates, admissions info, and a contact form for parents. Now receives regular admission enquiries through the site.",
+    image:
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
+    tags: ["Education", "Admissions Portal", "Parent Communication"],
+  },
+  {
+    title: "Mukwano Home Care",
+    description: "A household supplies shop with locations in Kampala and Jinja. Needed a catalogue-style site with product categories, price lists, and a WhatsApp ordering system for bulk customers.",
+    image:
+      "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1200&q=80",
+    tags: ["E-Commerce", "Catalogue", "Bulk Ordering"],
+  },
+  {
+    title: "Kazinga Properties",
+    description: "A real estate agency in Kasangati with rental listings and plots for sale. Needed a property gallery, enquiry forms per listing, and Google Maps integration for each location.",
     image:
       "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+    tags: ["Real Estate", "Property Listings", "Map Integration"],
   },
 ] as const;
 
 export const industries = [
   {
-    title: "E-commerce & Retail",
-    blurb: "Product-led layouts with clear categories, pricing, and strong calls to action.",
-    bullets: ["Catalog browsing", "Secure checkout paths", "Mobile shopping experiences"],
+    title: "Retail & E-commerce",
+    blurb: "Product catalogues with clear pricing, secure checkout paths, and mobile-first shopping designed for Ugandan buyers.",
+    bullets: ["Product catalogue browsing", "WhatsApp ordering flow", "Mobile Money payment links"],
     image:
       "https://images.unsplash.com/photo-1556742205-9d7f6e5a7d33?auto=format&fit=crop&w=1200&q=80",
   },
   {
     title: "Schools & Education",
-    blurb: "Structured web experiences that support admissions, communication, and parent trust.",
-    bullets: ["Admissions and enrollment", "Announcements and notices", "Parent-friendly navigation"],
+    blurb: "Structured websites that support admissions, term announcements, and parent communication on mobile phones.",
+    bullets: ["Admissions & enrolment pages", "Term dates & announcements", "Parent-friendly navigation"],
     image:
       "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
   },
   {
     title: "Healthcare & Medical",
-    blurb: "High-trust digital journeys for clinics, hospitals, and specialist care providers.",
-    bullets: ["Appointment prompts", "Service clarity", "Patient confidence and trust"],
+    blurb: "High-trust websites for clinics, hospitals, and specialist providers — appointment requests and service clarity.",
+    bullets: ["Appointment request forms", "Service & doctor pages", "Patient confidence signals"],
     image:
       "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80",
   },
   {
     title: "Hotels & Tourism",
-    blurb: "Experience-led layouts that inspire visitors to enquire and book with confidence.",
-    bullets: ["Beautiful imagery", "Booking enquiries", "Itinerary storytelling"],
+    blurb: "Experience-driven websites that showcase rooms, tours, and locations — making visitors want to book.",
+    bullets: ["Room & gallery pages", "Booking enquiry forms", "Tour itinerary storytelling"],
     image:
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
   },
   {
     title: "Real Estate & Construction",
-    blurb: "Property and project showcases that help buyers and investors evaluate quickly.",
-    bullets: ["Listing galleries", "Project timelines", "Lead capture forms"],
+    blurb: "Property showcases with listing galleries, location maps, and enquiry forms that help buyers evaluate quickly.",
+    bullets: ["Property listing pages", "Location maps", "Buyer enquiry capture"],
     image:
       "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
   },
   {
     title: "Restaurants & Food",
-    blurb: "Menu-first websites that make orders, reservations, and cravings easier to convert.",
-    bullets: ["Menu presentation", "Ordering convenience", "Promotion-ready visuals"],
+    blurb: "Menu-first websites that make ordering easy, display your location, and convert visitors into delivery or dine-in customers.",
+    bullets: ["Digital menu display", "WhatsApp ordering", "Location & contact info"],
     image:
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
   },
@@ -239,118 +239,120 @@ export const industries = [
 export const benefits = [
   {
     icon: ShieldCheck,
-    title: "Build Credibility & Trust",
-    body: "A polished website makes your business look established, even to customers meeting you for the first time in Kampala or Kasangati.",
+    title: "Build Trust with Customers",
+    body: "A professional website makes your business look credible and established — even to customers meeting you for the first time on their phone.",
   },
   {
     icon: Search,
-    title: "Get Found on Google (SEO)",
-    body: "With the right structure and content, customers searching for your service can find you without needing a referral.",
+    title: "Get Found on Google",
+    body: "With proper SEO and a Google Business Profile, customers searching for your service can find you without needing a referral or a social media post.",
   },
   {
     icon: Clock3,
-    title: "Generate Leads 24/7",
-    body: "Your website never closes. It keeps collecting enquiries, bookings, and WhatsApp conversations while your team focuses on delivery.",
+    title: "Generate Leads While You Sleep",
+    body: "Your website and WhatsApp bot work 24/7 — collecting enquiries, answering questions, and capturing leads even when your team is off duty.",
   },
   {
     icon: Smartphone,
-    title: "Reach Mobile Users",
-    body: "Most customers browse on phones, so your site should load quickly and feel natural on every screen size.",
+    title: "Reach Customers on Their Phones",
+    body: "Most Ugandans browse on mobile. Every site we build loads fast and looks natural on every screen — from smartphones to desktops.",
   },
   {
     icon: DollarSign,
-    title: "Outperform Competitors",
-    body: "A sharper digital presence helps you stand out against businesses that still rely on outdated or slow websites.",
+    title: "Beat Competitors Still Using Facebook Only",
+    body: "Many businesses rely solely on social media. A proper website with WhatsApp automation puts you ahead of competitors who haven't made the move yet.",
   },
   {
     icon: Banknote,
     title: "Increase Sales & Revenue",
-    body: "Clear messaging, stronger trust signals, and easier contact paths all work together to improve conversion.",
+    body: "Clear messaging, trust signals, easy contact paths, and mobile money integration all work together to turn visitors into paying customers.",
   },
 ] as const;
 
 export const testimonials = [
   {
-    name: "Grace A.",
-    city: "Kampala",
+    name: "Grace Akello",
+    city: "Ntinda, Kampala",
     rating: 5,
     quote:
-      "Our website now looks professional, loads quickly on phones, and brings in more enquiries every week.",
+      "Our clinic website now looks professional, loads fast on phones, and we've been getting more enquiries every week since it went live. The WhatsApp feature means parents can ask questions without calling.",
   },
   {
-    name: "Daniel K.",
-    city: "Mbarara",
+    name: "Daniel Kato",
+    city: "Bugolobi, Kampala",
     rating: 5,
     quote:
-      "The WhatsApp flow made it easier for customers to ask questions and book services without waiting.",
+      "The WhatsApp ordering system alone changed how we take orders. Customers browse the menu on the website and order directly — it saved us so much phone time. Revenue went up noticeably.",
   },
   {
-    name: "Faith N.",
-    city: "Jinja",
+    name: "Faith Nambooze",
+    city: "Kira Town",
     rating: 5,
     quote:
-      "We needed something clean and trustworthy, and the final result matched the quality we wanted for our brand.",
+      "We needed a simple website for our school that parents could check on their phones. The final result was clean, professional, and exactly what we needed. Now we get admission enquiries through the site regularly.",
   },
   {
-    name: "Abdul S.",
+    name: "Abdul Ssempijja",
     city: "Kasangati",
     rating: 5,
     quote:
-      "The process was clear from start to finish, and the launch support made everything feel smooth and manageable.",
+      "The process was clear from start to finish. They explained everything in simple terms, delivered on time, and even helped set up our Google Business listing. I've already referred two friends.",
   },
 ] as const;
 
 export const pricingPlans = [
   {
     name: "Starter",
-    price: "UGX 750,000",
-    audience: "Small businesses & startups",
-    description: "A focused package for businesses that need a professional online presence quickly.",
+    price: "UGX 250,000",
+    audience: "For small businesses & startups",
+    description: "A professional one-page website to get you online fast. No fluff, just a clean site that works on every phone.",
     featured: false,
     features: [
-      "Up to 5 custom pages",
-      "Mobile-responsive design",
-      "Basic SEO",
+      "1-page responsive website",
+      "Mobile-optimised design",
+      "Basic SEO setup",
+      "WhatsApp click-to-chat button",
+      "Google Business Profile setup",
       "Contact form",
-      "Social links",
-      "1 month support",
-      "Google Business setup",
-      "2 revision rounds",
+      "1 month post-launch support",
+      "Free domain (.com, .ug) for 1 year",
     ],
   },
   {
     name: "Business",
-    price: "UGX 1,500,000",
-    audience: "Growing brands that want more leads",
-    description: "The most balanced package for businesses that want stronger visibility and lead generation.",
+    price: "UGX 700,000",
+    audience: "For growing brands wanting more leads",
+    description: "A full multi-page site with blog, WhatsApp automation, and local SEO to drive enquiries and customers.",
     featured: true,
-    badge: "Most Popular",
+    badge: "Best Value",
     features: [
-      "Up to 10 pages",
-      "Advanced SEO",
-      "Blog/CMS",
-      "Email marketing integration",
-      "Live chat (WhatsApp) integration",
-      "Analytics setup",
-      "3 months support",
-      "Priority support & hosting",
+      "Up to 5 custom pages",
+      "Mobile-optimised design",
+      "Advanced local SEO",
+      "Blog or news section",
+      "WhatsApp Business automation",
+      "Google Analytics setup",
+      "Mobile Money payment link",
+      "3 months post-launch support",
+      "Free domain + 1 year hosting",
     ],
   },
   {
-    name: "Ecommerce",
-    price: "UGX 3,000,000",
-    audience: "Ready to sell online",
-    description: "A full online selling package for stores that need products, payments, and order management.",
+    name: "E-Commerce",
+    price: "UGX 1,500,000",
+    audience: "For businesses ready to sell online",
+    description: "Full online store with product catalogue, WhatsApp ordering, and Mobile Money integration.",
     featured: false,
     features: [
-      "Unlimited pages & products",
-      "Full ecommerce platform",
-      "Payment gateway",
-      "Mobile Money integration",
-      "Inventory management",
-      "Order/customer management",
+      "Product catalogue (up to 100 items)",
+      "Mobile-optimised storefront",
+      "WhatsApp ordering system",
+      "Mobile Money payment integration",
+      "Order management dashboard",
+      "Inventory tracking",
       "Advanced SEO & marketing",
-      "Email automation",
+      "6 months support & hosting",
+      "Free domain + 1 year hosting",
     ],
   },
 ] as const;
@@ -359,48 +361,58 @@ export const faqItems = [
   {
     question: "How much does a website cost for a Ugandan business?",
     answer:
-      "Our starter package begins at UGX 750,000, while more advanced sites and ecommerce builds are priced according to scope, features, and integrations.",
+      "Our starter package is UGX 250,000 for a professional one-page site. The Business package at UGX 700,000 is our most popular option for businesses that want a full multi-page site with WhatsApp automation and free hosting. E-commerce stores start at UGX 1,500,000. We keep our prices affordable so every Ugandan business can have a professional online presence.",
   },
   {
-    question: "How long does it take to launch a website?",
+    question: "How long does it take to build and launch my website?",
     answer:
-      "A straightforward website can move from strategy to launch in a few weeks, while larger platforms and ecommerce projects take longer depending on content and approvals.",
+      "A starter site can be ready in 3-5 days. A Business package typically takes 1-2 weeks. E-commerce sites take 2-3 weeks depending on how many products you have and how quickly you provide content.",
   },
   {
-    question: "Do you provide maintenance after launch?",
+    question: "Do you offer payment plans or can I pay in instalments?",
     answer:
-      "Yes. Support options are built into our pricing plans, and we can continue helping with updates, performance checks, and content changes.",
+      "Yes. We typically ask for 50% to start the project and 50% on completion before launch. For larger projects we can discuss a payment schedule that works for you.",
   },
   {
-    question: "Can you redesign my existing site without starting over?",
+    question: "Do you help maintain the website after it launches?",
     answer:
-      "Absolutely. We can audit your current site, preserve what works, and rebuild the experience around stronger messaging, speed, and conversion.",
+      "Yes. Support is built into all our packages. Starter includes 1 month, Business includes 3 months, and E-Commerce includes 6 months of post-launch support. We can also arrange ongoing maintenance after that.",
   },
   {
     question: "Will the website work well on mobile phones?",
     answer:
-      "Yes. Every build is mobile-first and tested across screen sizes so visitors on phones, tablets, and desktops get a consistent experience.",
+      "Absolutely. Every website we build is designed mobile-first and tested on real smartphones before launch. Most of your customers will visit on their phones, so this is our top priority.",
   },
   {
-    question: "Can you help my business rank better on Google?",
+    question: "Can you help my business appear on Google search results?",
     answer:
-      "We build with SEO best practices from the start, including page structure, content hierarchy, metadata, and local visibility support.",
+      "Yes. We build every site with SEO best practices. Our Business and E-Commerce packages include advanced local SEO setup, and we set up your Google Business Profile so customers can find you on Google Maps and search.",
+  },
+  {
+    question: "Can you integrate Mobile Money into my website?",
+    answer:
+      "Yes. We can add Mobile Money payment links (MTN MoMo, Airtel Money) so customers can pay directly from your website. This is included in our E-Commerce package and available as an add-on for other packages.",
+  },
+  {
+    question: "What if I already have a website and need it redesigned?",
+    answer:
+      "We can audit your current site, identify what's working and what isn't, and rebuild it with a fresh design, better messaging, and proper mobile optimisation. Send us a WhatsApp message and we'll discuss it.",
   },
 ] as const;
 
 export const serviceOptions = [
   "Website Design & Development",
-  "Mobile App Development",
-  "E-commerce Website",
-  "SEO",
-  "Digital Marketing",
+  "E-commerce & Online Store",
+  "WhatsApp Business Automation",
+  "SEO & Google Business Setup",
+  "Website Redesign",
   "Website Maintenance",
-  "WhatsApp Automation",
+  "Domain & Hosting",
 ] as const;
 
 export const budgetOptions = [
-  "UGX 500,000 - 1,000,000",
-  "UGX 1,000,000 - 2,000,000",
-  "UGX 2,000,000 - 5,000,000",
-  "UGX 5,000,000+",
+  "UGX 200,000 - 400,000",
+  "UGX 400,000 - 700,000",
+  "UGX 700,000 - 1,500,000",
+  "UGX 1,500,000+",
 ] as const;

@@ -13,9 +13,24 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteTitle = `${BRAND_NAME} — Premium Web Design for Ugandan Businesses`;
+const siteDescription = `${BRAND_NAME} is a Kasangati-based web design agency building affordable, mobile-optimised websites with WhatsApp automation for Ugandan businesses. Get online from UGX 250,000.`;
+
 export const metadata: Metadata = {
-  title: `${BRAND_NAME} | Websites, Apps & WhatsApp Automation`,
-  description: `${BRAND_NAME} is a premium digital agency in ${LOCATION} building websites, mobile apps, SEO systems, and WhatsApp automation for growing businesses.`,
+  title: {
+    default: siteTitle,
+    template: `%s | ${BRAND_NAME}`,
+  },
+  description: siteDescription,
+  keywords: ["web design Uganda", "website developer Kampala", "affordable website Uganda", "WhatsApp automation", "NileSites", "Kasangati web design", "Uganda business website"],
+  openGraph: {
+    title: siteTitle,
+    description: siteDescription,
+    url: "https://nilesites.vercel.app",
+    siteName: BRAND_NAME,
+    locale: "en_UG",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

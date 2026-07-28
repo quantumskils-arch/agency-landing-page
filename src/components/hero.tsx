@@ -1,9 +1,11 @@
 import { ArrowRight, Sparkles, Zap } from "lucide-react";
 import Image from "next/image";
-import { WHATSAPP_URL } from "@/lib/contact";
+import { BRAND_NAME, WHATSAPP_URL } from "@/lib/contact";
 
 const heroDashboardImage =
   "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=80";
+
+const shortName = BRAND_NAME.slice(0, 2).toUpperCase();
 
 export function Hero() {
   return (
@@ -13,15 +15,15 @@ export function Hero() {
         <div className="flex flex-col justify-center">
           <div className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-brand/20 bg-brand/10 px-4 py-2 text-sm font-medium text-brand">
             <Sparkles className="h-4 w-4" />
-            Kasangati-based digital agency for ambitious growth
+            Kasangati-based web design agency — affordable websites from UGX 250,000
           </div>
 
           <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            We Build High-Converting Websites &amp; WhatsApp Bots for Growing Businesses.
+            Affordable Websites &amp; WhatsApp Automation for Ugandan Businesses.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
-            Professional, industry-grade digital solutions tailored for SMEs, schools, hospitals, and churches.
-            Based proudly in Kasangati, Uganda.
+            {BRAND_NAME} builds professional, mobile-optimised websites with WhatsApp integration for SMEs,
+            schools, clinics, restaurants, and churches across Uganda. Starting at <strong className="text-white">UGX 250,000</strong>.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -44,9 +46,9 @@ export function Hero() {
 
           <dl className="mt-10 grid max-w-2xl grid-cols-1 gap-4 sm:grid-cols-3">
             {[
-              ["High-end UX", "Research-led layouts that feel premium and convert."],
-              ["Fast Delivery", "Lean production workflow with clean handoffs."],
-              ["Automation", "Smart WhatsApp experiences that reduce response time."],
+              ["Affordable Prices", "Websites from UGX 250,000 — no hidden costs."],
+              ["Fast Turnaround", "Most sites ready in 3-7 days."],
+              ["WhatsApp Ready", "Built-in chat so customers reach you instantly."],
             ].map(([title, text]) => (
               <div
                 key={title}
@@ -70,7 +72,7 @@ export function Hero() {
                   <span className="h-2.5 w-2.5 rounded-full bg-red-400" />
                   <span className="h-2.5 w-2.5 rounded-full bg-amber-400" />
                   <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
-                  <span className="ml-2">Performance dashboard preview</span>
+                  <span className="ml-2">Website preview mockup</span>
                 </div>
                 <div className="overflow-hidden rounded-[1.1rem] border border-white/10 bg-slate-900">
                   <Image
@@ -110,7 +112,7 @@ export function Hero() {
                 <div className="rounded-[1.5rem] border border-whatsapp/20 bg-slate-950/80 p-4 shadow-lg shadow-emerald-500/10">
                   <div className="mb-4 flex items-center gap-3">
                     <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-whatsapp/15 text-whatsapp">
-                      <span className="text-sm font-bold">LD</span>
+                      <span className="text-sm font-bold">{shortName}</span>
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-white">WhatsApp bot preview</p>
@@ -120,10 +122,10 @@ export function Hero() {
 
                   <div className="space-y-3 text-sm">
                     <div className="w-fit max-w-[85%] rounded-2xl rounded-bl-md bg-white/5 px-4 py-3 text-slate-200">
-                      Hi! I need a website for my clinic and a way to respond faster on WhatsApp.
+                      Hi! I need a website for my restaurant. Can you help?
                     </div>
                     <div className="ml-auto w-fit max-w-[85%] rounded-2xl rounded-br-md bg-whatsapp px-4 py-3 text-white shadow-lg shadow-emerald-500/20">
-                      Absolutely. We can design the site, add service pages, and automate common questions.
+                      Hi there! Absolutely. We can build you a menu website with WhatsApp ordering from UGX 700,000.
                     </div>
                     <div className="w-fit max-w-[85%] rounded-2xl rounded-bl-md bg-white/5 px-4 py-3 text-slate-200">
                       Can we start this week?
@@ -137,9 +139,9 @@ export function Hero() {
             </div>
 
             <div className="pointer-events-none absolute -bottom-6 left-6 hidden max-w-xs rounded-3xl border border-white/10 bg-slate-950/90 p-4 shadow-2xl shadow-black/30 md:block">
-              <p className="text-sm font-semibold text-white">Conversion-focused by design</p>
+              <p className="text-sm font-semibold text-white">Built for Ugandan businesses</p>
               <p className="mt-1 text-sm leading-6 text-slate-400">
-                We combine strong visuals, clear messaging, and frictionless WhatsApp contact flows.
+                We combine strong design, clear pricing, and WhatsApp so your customers can reach you instantly.
               </p>
             </div>
           </div>
